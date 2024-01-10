@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+header,
+footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+}
+
+.left-section {
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.left-image {
+    width: 100%;
+    height: auto;
+}
+
+.right-section {
+    flex: 2;
+    padding: 20px;
+}
+
+.right-section p {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    text-align: right;
+}
+
+footer .flogo {
+    margin-left: auto;
+}
+
+.centered-image-container {
+    text-align: center;
+}
+
+.centered-image {
+    margin: auto;
+}
